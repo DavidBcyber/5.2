@@ -38,19 +38,19 @@ namespace _5._2
                 switch (contact)
                 {
                           case 1:
-                        // add grade
+                        // add contact
                         AddContact();
                         break;
                     case 2:
-                        // remove grade
+                        // remove contact
                         RemoveContact();
                         break;
                     case 3:
-                        // display grade
+                        // Search Contact
                         SearchContact();
                         break;
                     case 4:
-                        // average
+                        // display contact
                         DisplayAllContact();
                         break;
                     case 5:
@@ -82,10 +82,10 @@ namespace _5._2
         {
             Console.WriteLine("Enter the contact number to be removed");
             string grade = Console.ReadLine();
-            if (contact.Contains(grade))
+            if (contact.Contains(number))
             {
-                contact.Remove(grade);
-                Console.WriteLine(grade + "is removed form the system");
+                contact.Remove(number);
+                Console.WriteLine(number + "is removed form the system");
             }
             else
             {
