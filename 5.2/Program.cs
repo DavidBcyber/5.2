@@ -20,7 +20,7 @@ namespace _5._2
             int contact = 0; // user input
 
             //user gets ask what differnt type of method whould they like to use
-            Console.WriteLine("Welcome to grade managament application");
+            Console.WriteLine("Welcome to contact managament application");
 
             while (true) // loop
             {
