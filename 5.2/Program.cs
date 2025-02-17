@@ -81,7 +81,7 @@ namespace _5._2
         static void RemoveContact()
         {
             Console.WriteLine("Enter the contact number to be removed");
-            string grade = Console.ReadLine();
+            string gnumber = Console.ReadLine();
             if (contact.Contains(number))
             {
                 contact.Remove(number);
@@ -89,7 +89,7 @@ namespace _5._2
             }
             else
             {
-                Console.WriteLine(grade + "The contact is not in the system");
+                Console.WriteLine(number + "The contact is not in the system");
             }
         }
         static void SearchContact()
